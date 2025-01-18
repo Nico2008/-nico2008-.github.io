@@ -2,11 +2,11 @@ Hacking into a system without a password Step by Step.
 
 Start
 1) Our first task was to figure out the IP address of the machine we were trying to hack into. 
-    a) To do this, we used the command Nmap to find a list of all the IP addresses currently on the network
-    b) We started off by asking what our classmates’ computer IP addresses were and found that they all began with 10.0, the third octet was in the range 140-255, and the 4th octet was between 0-255. We only figured this out after trying numerous other nmap switches.
-          Sudo nmap -O 10.0.140-255.0-255
-    c)Once we had all the IP addresses we began a process of elimination. We started filtering down the IP addresses that we knew. Until we        were left with only the 3 machines that were not currently logged in. 
-    d) From there we began powering down machines and seeing which ones would not ping. We were able to establish that our IP address was           10.0.140.9.
+     To do this, we used the command Nmap to find a list of all the IP addresses currently on the network.
+    We started off by asking what our classmates’ computer IP addresses were and found that they all began with 10.0, the third octet was in the range 140-255, and the 4th octet was between 0-255. We only figured this out after trying numerous other nmap switches.
+          Sudo nmap -O 10.0.140-255.0-255.
+    Once we had all the IP addresses we began a process of elimination. We started filtering down the IP addresses that we knew. Until we        were left with only the 3 machines that were not currently logged in. 
+    From there we began powering down machines and seeing which ones would not ping. We were able to establish that our IP address was          10.0.140.9.
 2) In order to log in to the target machine, we tried several methods
 	a) Attempted to install ssh keys onto the target machine
 				Ssh-keygen
