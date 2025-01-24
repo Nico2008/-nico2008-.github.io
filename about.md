@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Nico. I am a Junior at the Bay School who is taking a CyberSecurity and Ethical Hacking course. 
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+If you have any questions about anything feel free to shoot me a email.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[nicoanders007@gmail.com](mailto:nicoanders007@gmail.com)
